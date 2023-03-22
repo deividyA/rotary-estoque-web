@@ -1,0 +1,27 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: rotary_estoque
+  username: postgres
+  password: 98285438b
+  host: localhost
+  port: 5433
+
+test:
+  <<: *default
+  database: rotary_estoque
+  username: postgres
+  password: 98285438b
+  host: localhost
+  
+production:
+  <<: *default
+  database: rotary_estoque
+  username: postgres
+  password: 98285438b
+  host: localhost
+  
