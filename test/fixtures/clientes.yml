@@ -1,9 +1,31 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: MyString
-  body: MyText
+  cpf: 1
+  nome: MyString
+  sexo: MyString
+  celular: 1
+  data_nascimento: 2023-03-22
+  cep: MyString
+  pais: MyString
+  estado: MyString
+  bairro: MyString
+  endereco: MyString
+  estado: MyString
+  numero: 1
+  complemento: MyText
 
 two:
-  title: MyString
-  body: MyText
+  cpf: 1
+  nome: MyString
+  sexo: MyString
+  celular: 1
+  data_nascimento: 2023-03-22
+  cep: MyString
+  pais: MyString
+  estado: MyString
+  bairro: MyString
+  endereco: MyString
+  estado: MyString
+  numero: 1
+  complemento: MyText
