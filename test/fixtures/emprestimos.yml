@@ -2,6 +2,8 @@
 
 one:
   cliente_fk: one
+  estoque_fk: one
 
 two:
   cliente_fk: two
+  estoque_fk: two
