@@ -7,6 +7,7 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "home", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -69,4 +70,42 @@
   <body>
     <%= yield %>
   </body>
+  
+  <footer class="site-footer fixed-bottom">
+  <i class="bi bi-facebook"></i>
+    <div class="layout-container -padding-reduced u-text-centered u-container">
+      <ul class="site-footer-social">
+        <li>
+          <a href="https://www.twitter.com/rotary">
+            <img alt="twitter" src="<%= image_path('twitter-logo.png') %>">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/rotary">
+            <img alt="facebook" src="<%= image_path('facebook-logo.png') %>">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/user/RotaryInternational">
+            <img alt="youtube" src="<%= image_path('youtube-logo.png') %>">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/rotaryinternational/">
+            <img alt="instagram" src="<%= image_path('instagram-logo.png') %>">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/company/rotary-international/">
+            <img alt="linkedin" src="<%= image_path('linkedin-logo.png') %>">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <p class="site-footer-legal">
+        © 2022 Rotary International. Todos os direitos reservados.
+      <a href="https://www.rotary.org/privacy">Política de privacidade</a>
+      <a href="https://www.rotary.org/tos">Termos de uso</a>
+    </p>
+  </footer>
 </html>

@@ -1,0 +1,22 @@
+img {
+    width: 24px;
+    height: 24px;
+}
+
+.site-footer {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: #5e717d;
+}
+
+.site-footer-social {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.site-footer-legal {
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+}

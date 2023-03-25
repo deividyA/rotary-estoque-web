@@ -5,6 +5,10 @@ ruby "3.1.3"
 
 gem 'erb-formatter'
 
+gem 'font_awesome5_rails'
+
+gem "font-awesome-sass", "~> 6.3.0"
+
 gem 'bootstrap', '~> 4.6.2'
 
 gem 'jquery-rails'
