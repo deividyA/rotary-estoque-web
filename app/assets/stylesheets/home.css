@@ -7,19 +7,37 @@
 }
 
 .site-footer {
-    font-size: 1.4rem;
-    line-height: 2.4rem;
-    color: #5e717d;
+    background-color: #019fcb;
 }
 
 .site-footer-social {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 1.4rem;
+    padding-top: 1rem;
 }
 
 .site-footer-legal {
-    font-size: 1.2rem;
-    line-height: 2.4rem;
+    color: white;
+    font-size: 0.8rem;
 }
+
+.navbar-brand {
+    color: white !important;
+}
+.nav-link {
+    color: white !important;
+}
+.navbar-rotary {
+    background-color: #019fcb !important;
+}
+.btn {
+    border-radius: 16px !important;
+    margin-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+
+

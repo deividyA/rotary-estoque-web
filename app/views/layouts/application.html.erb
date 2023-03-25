@@ -2,7 +2,13 @@
 <html>
   <head>
     <title>RotaryEstoqueWeb</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta charset="utf-8">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    >
+
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,7 +16,7 @@
     <%= stylesheet_link_tag "home", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-rotary">
       <a class="navbar-brand" href="#">Navbar</a>
       <button
         class="navbar-toggler"
@@ -50,19 +56,9 @@
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          >
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+        <button class="btn btn-warning" type="submit">Cadastre-se</button>
+        <button class="btn btn-light " type="submit">Entrar</button>
       </div>
     </nav>
   </head>
@@ -70,7 +66,7 @@
   <body>
     <%= yield %>
   </body>
-  
+
   <footer class="site-footer fixed-bottom">
     <div class="layout-container -padding-reduced u-text-centered u-container">
       <ul class="site-footer-social">
@@ -101,8 +97,8 @@
         </li>
       </ul>
     </div>
-    <p class="site-footer-legal">
-        © 2022 Rotary International. Todos os direitos reservados.
+    <p class="d-flex justify-content-center site-footer-legal">
+      © 2022 Rotary International. Todos os direitos reservados.
       <a href="https://www.rotary.org/privacy">Política de privacidade</a>
       <a href="https://www.rotary.org/tos">Termos de uso</a>
     </p>
