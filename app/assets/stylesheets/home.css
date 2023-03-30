@@ -7,19 +7,18 @@
 }
 
 .site-footer {
-    background-color: #019fcb;
+    padding-top: 2rem;
 }
 
 .site-footer-social {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 1.4rem;
+    gap: 1.7rem;
     padding-top: 1rem;
 }
 
 .site-footer-legal {
-    color: white;
     font-size: 0.8rem;
 }
 

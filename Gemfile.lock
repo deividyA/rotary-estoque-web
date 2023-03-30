@@ -100,9 +100,6 @@ GEM
     ffi (1.15.5-x64-mingw-ucrt)
     font-awesome-sass (6.3.0)
       sassc (~> 2.0)
-    font_awesome5_rails (1.5.0)
-      nokogiri (>= 1.11.3)
-      railties (>= 4.2)
     globalid (1.1.0)
       activesupport (>= 5.0)
     i18n (1.12.0)
@@ -249,7 +246,6 @@ DEPENDENCIES
   debug
   erb-formatter
   font-awesome-sass (~> 6.3.0)
-  font_awesome5_rails
   importmap-rails
   jbuilder
   jquery-rails

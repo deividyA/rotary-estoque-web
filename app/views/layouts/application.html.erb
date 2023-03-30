@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RotaryEstoqueWeb</title>
+    <title>PR</title>
 
     <meta charset="utf-8">
     <meta
@@ -14,6 +14,7 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= stylesheet_link_tag "home", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "login", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
 
     <nav class="navbar navbar-expand-lg navbar-rotary">
@@ -37,28 +38,14 @@
               <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Sobre-nós</a>
           </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Dropdown
-            </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contato</a>
           </li>
         </ul>
-        <button class="btn btn-warning" type="submit">Cadastre-se</button>
-        <button class="btn btn-light " type="submit">Entrar</button>
+        <a class="btn btn-warning" href="sign_up">Cadastre-se</button>
+        <a class="btn btn-light" href="login">Entrar</a>
       </div>
     </nav>
   </head>
@@ -67,7 +54,7 @@
     <%= yield %>
   </body>
 
-  <footer class="site-footer fixed-bottom">
+  <footer class="site-footer sticky-bottom">
     <div class="layout-container -padding-reduced u-text-centered u-container">
       <ul class="site-footer-social">
         <li>

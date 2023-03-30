@@ -7,7 +7,7 @@ development:
   <<: *default
   database: rotary_estoque
   username: postgres
-  password: postmy
+  password: 98285438b
   host: localhost
   port: 5433
 
@@ -15,13 +15,15 @@ test:
   <<: *default
   database: rotary_estoque
   username: postgres
-  password: postmy
+  password: 98285438b
   host: localhost
+  port: 5433
   
 production:
   <<: *default
   database: rotary_estoque
   username: postgres
-  password: postmy
+  password: 98285438b
   host: localhost
+  port: 5433
   
